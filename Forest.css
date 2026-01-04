@@ -15,12 +15,12 @@ body/* Tělo HTML stránky. Skvělé místo pro umístění pravidla pozadí / p
 }
 .navbar-main .nav-link/* link ve vrchní liště */
 {
-    color: #cad0c8 !important;
+    color: #afc49f !important;
 }
 .navbar-status/* tam kde je měna a zprávy */
 {
     background: #171d15 !important;
-    color: #bfd6cb;
+    color: #afc49f;
     font-style: italic;
 }
 .breadcrumb-nav/* pod měnou a zprávy */
@@ -51,7 +51,7 @@ body/* Tělo HTML stránky. Skvělé místo pro umístění pravidla pozadí / p
 }
 h1/* Záhlaví titulku */
 {
-    color: #cad0c8;
+    color: #afc49f;
     font-family: Courier;
     font-weight: bold;
     font-size: 50px;
@@ -65,7 +65,7 @@ h1/* Záhlaví titulku */
 .nav-tabs .nav-link/* Jednotlivé odkazy výše uvedené sekce */
 {
     color: #cad0c8;
-    font-style: oblique;
+    font-style: italic;
     border-radius: 20px;
     border-style: hidden;
 }
@@ -76,7 +76,7 @@ h1/* Záhlaví titulku */
 }
 .table/* Tabulky obsahující informace o balíčku nebo uživateli */
 {
-    background: #0d110b;
+    background: #171d15;
     border-style: hidden;
     border-collapse: separate;
     border-spacing: 0;
@@ -111,6 +111,7 @@ h1/* Záhlaví titulku */
 .bottom/* Spodní řádek tabulky Informace o členech (jen den) */
 {
     background: #171d15 !important;
+    border-radius: 0px 10px 0px 10px;
 }
 .alert/* Upozornění a oznámení, která se zobrazují v horní části stránky. */
 {
@@ -147,6 +148,30 @@ h1/* Záhlaví titulku */
 .s-chat__username/*jména v chatu*/
 {
     font-weight: bold;
+    color: #7f9a6f !important;
+}
+.s-chat-message:nth-child(odd){
+    background: #171d1500 !important;
+}
+.s-chat-message:nth-child(even){
+    background: #0d110b80 !important;
+}
+#chatMessagePinned{
+    background: #0d110b !important;
+    border-style: hidden;
+    color: #7f9a6f !important;
+}
+#chatMessageContainer{
+    color: #bdcfb0 !important;
+    border-style: hidden;
+}
+.s-chat-message_timestamp{
+    color: #cad0c8 !important;
+    font-style: italic;
+}
+#txtChatInput{
+    background: #0d110b !important;
+    border-style: hidden;
 }
 a, /*link*/
 a i,
@@ -175,4 +200,3 @@ a:hover svg {
 .left{
     background: #171d15 !important;
 }
-
